@@ -1,0 +1,6 @@
+*.lock
+.terraform
+.vagrant
+terraform.d
+terraform.tfstate*
+.kitchen
