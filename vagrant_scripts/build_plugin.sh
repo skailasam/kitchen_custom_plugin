@@ -19,3 +19,9 @@ mkdir -p /vagrant/terraform.d/plugins/linux_amd64
 
 # copy the plugin to the directory which we are going to use with terraform
 cp ~/go/bin/terraform-provider-extip /vagrant/terraform.d/plugins/linux_amd64/
+
+# create the directory where to store the plugin for the use with kitchen
+mkdir -p /vagrant/test/fixtures/tf_module/terraform.d/plugins/linux_amd64
+
+# copy the plugin to the directory which we are going to use with terraform
+cp ~/go/bin/terraform-provider-extip /vagrant/test/fixtures/tf_module/terraform.d/plugins/linux_amd64/
