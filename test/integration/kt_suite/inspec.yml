@@ -1,0 +1,11 @@
+---
+name: default
+attributes:
+  - name: terraform_state
+    type: string
+    required: true
+    description: The Terraform configuration under test must define the equivalently named output
+  - name: external_ip
+    type: string
+    required: true
+    description: Check to verify there is an external ip in the output

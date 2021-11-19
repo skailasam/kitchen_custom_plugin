@@ -5,8 +5,6 @@
 This repository shows you the use of a Kitchen-Terraform test run
 
 ## TODO
-- [ ] setup kitchen
-- [ ] run kitchen
 
 ## DONE
 - [x] create a vagrant file 
@@ -17,3 +15,5 @@ This repository shows you the use of a Kitchen-Terraform test run
 - [x] build the custom plugin
 - [x] terraform configuration 
 - [x] install ruby and bundle
+- [x] setup kitchen
+- [x] run kitchen
