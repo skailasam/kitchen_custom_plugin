@@ -5,7 +5,6 @@
 This repository shows you the use of a Kitchen-Terraform test run
 
 ## TODO
-- [ ] create a vagrant file 
 - [ ] install terraform version 0.11
 - [ ] install gcc
 - [ ] install go version 1.10
@@ -15,3 +14,4 @@ This repository shows you the use of a Kitchen-Terraform test run
 - [ ] run kitchen
 
 ## DONE
+- [x] create a vagrant file 
