@@ -15,3 +15,4 @@ This repository shows you the use of a Kitchen-Terraform test run
 - [x] install go version 1.10
 - [x] install jq
 - [x] build the custom plugin
+- [x] terraform configuration 
