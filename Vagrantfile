@@ -13,6 +13,8 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "vagrant_scripts/install_go.sh",
   env: { "VERSION" => "1.10" }
   
+  config.vm.provision "shell", path: "vagrant_scripts/install_jq.sh"
+
   config.vm.provider "virtualbox" do |v|
     v.memory = 1024*2
     v.cpus = 2

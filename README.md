@@ -5,8 +5,6 @@
 This repository shows you the use of a Kitchen-Terraform test run
 
 ## TODO
-- [ ] install go version 1.10
-- [ ] install jq
 - [ ] build the custom plugin
 - [ ] setup kitchen
 - [ ] run kitchen
@@ -15,3 +13,5 @@ This repository shows you the use of a Kitchen-Terraform test run
 - [x] create a vagrant file 
 - [x] install terraform version 0.11
 - [x] install gcc
+- [x] install go version 1.10
+- [x] install jq
