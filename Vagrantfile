@@ -14,6 +14,7 @@ Vagrant.configure("2") do |config|
   env: { "VERSION" => "1.10" }
   
   config.vm.provision "shell", path: "vagrant_scripts/install_jq.sh"
+  config.vm.provision "shell", path: "vagrant_scripts/build_plugin.sh", privileged: false
 
   config.vm.provider "virtualbox" do |v|
     v.memory = 1024*2

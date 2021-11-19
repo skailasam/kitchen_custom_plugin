@@ -5,7 +5,6 @@
 This repository shows you the use of a Kitchen-Terraform test run
 
 ## TODO
-- [ ] build the custom plugin
 - [ ] setup kitchen
 - [ ] run kitchen
 
@@ -15,3 +14,4 @@ This repository shows you the use of a Kitchen-Terraform test run
 - [x] install gcc
 - [x] install go version 1.10
 - [x] install jq
+- [x] build the custom plugin
