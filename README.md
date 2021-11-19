@@ -16,3 +16,4 @@ This repository shows you the use of a Kitchen-Terraform test run
 - [x] install jq
 - [x] build the custom plugin
 - [x] terraform configuration 
+- [x] install ruby and bundle
