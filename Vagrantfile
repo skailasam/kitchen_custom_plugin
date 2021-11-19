@@ -17,6 +17,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "vagrant_scripts/install_bundle.sh"
   config.vm.provision "shell", path: "vagrant_scripts/build_plugin.sh", privileged: false
   config.vm.provision "shell", path: "vagrant_scripts/setup_kitchen.sh", privileged: false
+  config.vm.provision "shell", path: "vagrant_scripts/run_kitchen.sh", privileged: false
 
   config.vm.provider "virtualbox" do |v|
     v.memory = 1024*2
