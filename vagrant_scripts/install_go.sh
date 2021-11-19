@@ -7,7 +7,7 @@ which go || {
   # install golang
   apt-get install -y snapd
   if [ "${VERSION}" ] ; then
-    snap install go --classic --channel=1.10/stable
+    snap install go --classic --channel=${VERSION}/stable
   else
     snap install go
   fi
