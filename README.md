@@ -87,9 +87,9 @@ vagrant ssh
 cd /vagrant
 ```
 - Run a kitchen verify test. This will do 3 tests
-- check that the external provider is in the correct location
-- check that the terraform state file is correctly created
-- Check that you have an external ip address in your output that matches an ip address format 
+    - check that the external provider is in the correct location
+    - check that the terraform state file is correctly created
+    - Check that you have an external ip address in your output that matches an ip address format 
 ```
 bundle exec kitchen verify
 ```
