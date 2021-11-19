@@ -8,6 +8,8 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "vagrant_scripts/install_terraform.sh",
   env: { "VERSION" => "0.11.15" }
 
+  config.vm.provision "shell", path: "vagrant_scripts/install_gcc.sh"
+
   
   config.vm.provider "virtualbox" do |v|
     v.memory = 1024*2
