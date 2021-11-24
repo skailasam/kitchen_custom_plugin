@@ -7,6 +7,7 @@ In this example you will use the custom plugin from [https://github.com/petems/t
 With Kitchen-Terraform you will test if you actually get to see your external IP address. 
 
 
+
 # Prerequisites
 
 Vagrant [See documentation](https://www.vagrantup.com/docs/installation)  
